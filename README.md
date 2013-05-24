@@ -65,7 +65,17 @@ Manual
 - Unzip that download.
 - Copy folders(css, img, js) in the resulting folder to `app/webroot`
 
-Shell Command (need `recess` and `uglifyjs`)
+
+###Reccess and UglifyJS:
+- UglifyJS: [UglifyJS, by mishoo](https://github.com/mishoo/UglifyJS/)
+- Reccess: [Reccess, by Twitter](https://github.com/twitter/recess)
+
+(Shell Command (need `recess` and `uglifyjs`))
+
+	$ sudo npm install uglify-js@1
+	$ sudo npm install recess@1
+	
+	
 
 (Copy less, js, img files to webroot and make css, js files)
 
